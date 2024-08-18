@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Crypto-Portfolio App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
+The Crypto-Portfolio App is a single-page application (SPA) designed to help users manage their cryptocurrency portfolio effectively. The application allows users to:
 
-## Available Scripts
+1. Add tokens to their watch list.
+2. View their current balance for each token.
+3. View the historical balance of each token based on the date.
+4. Check their token allowance.
+5. Perform operations on the token, such as transferring tokens to another address or approving tokens.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. Wallet Connection
+- Users can connect their Metamask or any other compatible wallet.
+- Alternatively, users can provide a wallet address as input.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Watch List
+- Users can add various tokens to their watch list.
+- The current balance of each token in the watch list is displayed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Historical Data
+- Fetch and display the historical balance of each token.
+- A date picker is provided for users to select the date range.
 
-### `npm test`
+### 4. Allowance
+- Users can check their token allowance for different smart contracts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Token Transfer
+- Functionality to allow users to transfer tokens to another address.
+- The form includes fields for the recipient address and the amount to be transferred.
 
-### `npm run build`
+### 6. Visual Representations
+- Visual representations like tables, charts, and graphs to display token balances, historical data, and allowances.
+- Creative visual representations to enhance user experience and make data easy to understand.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technical Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend
+- React.js or any other modern frontend framework.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Blockchain Interaction
+- Web3.js, Ethers.js, or any other library to interact with the Ethereum blockchain.
 
-### `npm run eject`
+### Backend (optional)
+- Node.js, Express, or any other backend framework (if required).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Database (optional)
+- MongoDB, Firebase, or any other database (if required).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js and npm installed on your machine.
+- A GitHub account for version control and collaboration.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/crypto-portfolio-app.git
+    cd crypto-portfolio-app
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Start the development server:
+    ```bash
+    npm start
+    ```
 
-### Code Splitting
+4. Open your browser and navigate to:
+    ```
+    http://localhost:3000
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
