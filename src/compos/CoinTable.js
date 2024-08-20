@@ -75,7 +75,7 @@ const CoinTable = () => {
                             const profit = row.price_change_percentage_24h > 0;
                             return (
                                 <TableRow onClick={()=> {
-                                    console.log("Clicked");
+                                    console.log("Clicked")
                                     navigate(`/coins/${row.id}`)}
 
                                 }

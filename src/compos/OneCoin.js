@@ -12,11 +12,22 @@ const OneCoin = () => {
       const data = await axios.get(SingleCoin(id));
       // console.log(data)
       setCoin(data);
+      // console.log(coin.data.id)
     };
 
     useEffect(() => {
       getCoin();
     },[]);
+
+    // Function to convert HTML to plain text
+  const htmlToText = (html) => {
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = html;
+  return tempDiv.textContent || tempDiv.innerText || '';
+};
+
+  // descriptionText = coin?.data.description.en ? htmlToText(coin.data.description.en).split(". ")[0] : '';
+
   return (
     <div style={{display: "flex",
         flexDirection: "column",
@@ -35,8 +46,8 @@ const OneCoin = () => {
           height="200"
           style={{ marginBottom: 20 }}
         />
-        <Typography variant='h3' style={{fontWeight:'bolder'}}>{coin?.data.name}</Typography>
-        <Typography variant='subtitle1'>{coin?.data.description.en.split(". ")[0]}</Typography>
+        <Typography variant='h3' style={{fontWeight:'bolder',textAlign:'center'}}>{coin?.data.name}</Typography>
+        <Typography variant='subtitle1' style={{width:'80%' ,textAlign:'center'}}>{htmlToText(coin?.data.description.en).split(". ")[0]}</Typography>
         <div style={{alignSelf: "start",
       padding: 25,
       paddingTop: 10,
@@ -50,6 +61,7 @@ const OneCoin = () => {
               variant="h5"
               style={{
                 fontFamily: "Montserrat",
+                textAlign:'center'
               }}
             >
               {(coin?.data.market_cap_rank)}
@@ -57,7 +69,7 @@ const OneCoin = () => {
           </span>
 
           <span style={{ display: "flex" }}>
-            <Typography variant="h5" style={{marginLeft:'37%', fontWeight:'bolder'}}>
+            <Typography variant="h5" style={{marginLeft:'37%', fontWeight:'bolder', textAlign:'center'}}>
               Current Price:
             </Typography>
             &nbsp; &nbsp;
