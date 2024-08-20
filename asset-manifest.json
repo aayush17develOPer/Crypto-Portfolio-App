@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sperax_Full_Stack/static/css/main.e1ba10c5.css",
+    "main.js": "/Sperax_Full_Stack/static/js/main.bcd4162f.js",
+    "static/js/453.ca2a70ae.chunk.js": "/Sperax_Full_Stack/static/js/453.ca2a70ae.chunk.js",
+    "index.html": "/Sperax_Full_Stack/index.html",
+    "main.e1ba10c5.css.map": "/Sperax_Full_Stack/static/css/main.e1ba10c5.css.map",
+    "main.bcd4162f.js.map": "/Sperax_Full_Stack/static/js/main.bcd4162f.js.map",
+    "453.ca2a70ae.chunk.js.map": "/Sperax_Full_Stack/static/js/453.ca2a70ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1ba10c5.css",
+    "static/js/main.bcd4162f.js"
+  ]
+}
