@@ -17,3 +17,11 @@ https://www.youtube.com/watch?v=uWeK30vg35c
 https://www.youtube.com/watch?v=4uHCxAPMgAo&t=864s
 CoinGecko API: https://www.coingecko.com/en/api
 Some CSS templates from : https://flowbite.com/
+
+
+PS- I have hosted my application on github but for some unknown reason it is not working as intended. Thus I am attaching a link to a short video where I have demonstrated my application's functionality.
+Video link - https://drive.google.com/file/d/1ew7AJvgqnf9-vx4LSaksrR78CwvQxC5k/view?usp=sharing
+
+Hosted website link- https://aayush17developer.github.io/Sperax_Full_Stack/
+
+Thank you!
