@@ -3,7 +3,7 @@ Hello, I am Aayush Joshi and this is my Crypto Portfolio App.
 I have implemented following features in it:
 
 a. Designed a carousel displaying various cryptocurrencies available.
-b. Made use of coingecko API to fecth all the dynamic information automatically.
+b. Made use of coingecko API to fetch all the dynamic information automatically.
 c. Made a coin table consisting on coins with their logo, symbol, name, current price, % change in 24 hours and market cap.
 d. When a coin is clicked on the above table, it navigates to a page where a one-two line description of the coin is shown along with some other parameters. Also there is a historical chart of that coin below which shows a line graph of the prices of the coin vs time in 24 hours.
 e. I have incoroporated a feature to connect to metamask and see the current ID's address and balance.
@@ -19,9 +19,7 @@ CoinGecko API: https://www.coingecko.com/en/api
 Some CSS templates from : https://flowbite.com/
 
 
-PS- I have hosted my application on github but for some unknown reason it is not working as intended. Thus I am attaching a link to a short video where I have demonstrated my application's functionality.
+I am attaching a link to a short video where I have demonstrated my application's functionality.
 Video link - https://drive.google.com/file/d/1ew7AJvgqnf9-vx4LSaksrR78CwvQxC5k/view?usp=sharing
-
-Hosted website link- https://aayush17developer.github.io/Sperax_Full_Stack/
 
 Thank you!
